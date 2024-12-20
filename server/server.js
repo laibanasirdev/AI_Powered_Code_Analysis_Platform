@@ -2,7 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 // const acquirerRouter = require('./routers/acquirerRoutes'); // Corrected import to match the actual file name
+<<<<<<< HEAD
 // const userRoutes = require('./routes/userRoutes'); // Import user routes
+=======
+const userRoutes = require('./routes/userRoutes'); // Import user routes
+>>>>>>> c4237b0f5b8762f4cfcac4fbfce7226272c50ae9
 
 require('dotenv').config();
 
